@@ -1,6 +1,7 @@
 pub mod error;
 pub mod lexer;
 pub mod number;
+pub mod string;
 pub mod value;
 
 pub use error::{ErrorKind, ParseError};
